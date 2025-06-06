@@ -1,0 +1,53 @@
+/* Style général pour le corps de la page */
+body {
+     background-image: url("img/fondrouge.jpg");
+     background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Style pour le titre */
+#title {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#t {
+    color: #333;
+}
+
+/* Style pour le conteneur du formulaire */
+#ffco {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Style pour les champs de formulaire */
+.champ {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style pour le bouton de soumission */
+.btn-outline-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-outline-primary:hover {
+    background-color: #0056b3;
+}
